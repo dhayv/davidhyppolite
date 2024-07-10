@@ -17,8 +17,8 @@ const App: React.FC = () => {
         
         
         </BrowserRouter>
-    )
-}
+    );
+};
 
 
 
