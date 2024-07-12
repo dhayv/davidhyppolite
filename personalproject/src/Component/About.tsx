@@ -4,7 +4,9 @@ import React from "react";
 
 const About: React.FC = () => {
     return (
-        <div>Welcome</div>
+        <section>
+            <h2>Hello World</h2>
+        </section>
     );
 };
 
