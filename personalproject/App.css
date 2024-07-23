@@ -1,0 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+body, #root {
+    height: 100%;
+    margin: 0
+}
+
+#page-down {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}

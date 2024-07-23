@@ -1,4 +1,5 @@
 import React, {lazy, Suspense, useEffect, useState, useRef } from "react";
+import { Container } from "react-bootstrap";
 
 const About = lazy(() => import("../Component/About"));
 const Project = lazy(() => import ("../Component/Projects"))
@@ -31,7 +32,7 @@ const Home: React.FC = () => {
 
 
     return (
-        <section>
+        <Container>
             <div id="home"><h1>Hello, and welcome I am James</h1></div>
             <p>Im a full-stack developer</p>
 
@@ -45,7 +46,7 @@ const Home: React.FC = () => {
 
             </div>
 
-        </section>
+        </Container>
     );
 };
 
