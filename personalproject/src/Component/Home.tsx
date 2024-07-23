@@ -43,7 +43,6 @@ const Home: React.FC = () => {
                     </Suspense>
 
                 )}
-
             </div>
 
         </Container>
