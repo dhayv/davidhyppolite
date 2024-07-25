@@ -3,9 +3,11 @@ import React from "react";
 const Skills: React.FC = () => {
 
     return(
-        <div>
-            
-        </div>
+        <section>
+            <h1>Skills</h1>
+            <hr></hr>
+        </section>
+        
     )
 }
 

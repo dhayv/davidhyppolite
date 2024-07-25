@@ -4,7 +4,9 @@ import React from "react";
 
 const Projects: React.FC = () => {
     return (
-        <div>My Projects</div>
+        <section>
+            <h1>My Portfolio</h1>
+        </section>
     );
 };
 

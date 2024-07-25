@@ -1,8 +1,10 @@
 import React, {lazy, Suspense, useEffect, useState, useRef } from "react";
 import { Container } from "react-bootstrap";
 
+
 const About = lazy(() => import("../Component/About"));
 const Project = lazy(() => import ("../Component/Projects"))
+const Skills = lazy(() => import ("../Component/Skills"))
 
 const Home: React.FC = () => {
     const aboutRef = useRef<HTMLDivElement | null>(null);
@@ -34,12 +36,12 @@ const Home: React.FC = () => {
     return (
         <Container>
             <div id="home"><h1>Hello, and welcome I am James</h1></div>
-            <p>Im a full-stack developer</p>
-
             <div id="about" ref={aboutRef}>
                 {isAboutVisible && (
                     <Suspense fallback={<div>Loading About..</div>}>
                          <About/>
+                         <Skills/>
+                         <Project/>
                     </Suspense>
 
                 )}

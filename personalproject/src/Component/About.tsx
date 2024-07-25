@@ -4,9 +4,11 @@ import React from "react";
 
 const About: React.FC = () => {
     return (
-        <div>
+        <section>
             <h2>About Me</h2>
-        </div>
+            <h6>I'm currently a web developer at Chingu.io</h6>
+            <hr></hr>
+        </section>
     );
 };
 
