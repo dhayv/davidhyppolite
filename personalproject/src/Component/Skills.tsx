@@ -7,8 +7,8 @@ const Skills: React.FC = () => {
         <section>
             <h1>Skills</h1>
             <Row>
-
                 <Col>
+                    <img src={require("../img/react-javascript-js-framework-facebook-svgrepo-com.svg")} alt="React"></img>
                 </Col>
             </Row>
             
