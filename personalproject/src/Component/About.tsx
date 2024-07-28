@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import '../Css/about.css'
 
 const About: React.FC = () => {
   return (
