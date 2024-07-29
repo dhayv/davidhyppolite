@@ -10,6 +10,8 @@ import Javascript from './javascript-svgrepo-com.svg';
 import Python from './python-svgrepo-com.svg';
 import ReactLogo from './react-javascript-js-framework-facebook-svgrepo-com.svg';
 import Typescript from './typescript-svgrepo-com.svg';
+import Github from './icons8-github.svg';
+import LinkedIn from './icons8-linkedin.svg';
 
 const Icons = {
   AwsEc2,
@@ -18,6 +20,8 @@ const Icons = {
   Css3,
   Docker,
   Git,
+  Github,
+  LinkedIn,
   Html5,
   Javascript,
   Python,
