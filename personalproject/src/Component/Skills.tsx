@@ -10,8 +10,8 @@ const Skills: React.FC = () => {
 
 
   return (
-    <section>
-      <h1>Skills</h1>
+    <section className="text-center" >
+      <h1 className="display-4 mb-4">Skills</h1>
       <Row>
 
        

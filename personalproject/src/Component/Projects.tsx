@@ -30,8 +30,8 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <section>
-      <h1>My Portfolio</h1>
+    <section >
+      <h1 className="text-center display-4 mb-4" >My Portfolio</h1>
       {[0, 1].map((rowIndex) => (
         <Row key={rowIndex}>
           {projectData.slice(rowIndex * 3, rowIndex * 3 + 3).map((project, colIndex) => (
