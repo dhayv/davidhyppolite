@@ -1,13 +1,14 @@
 import React from "react"
 import {Container, Col, Row, Image, Card} from "react-bootstrap"
 import { useParams } from "react-router-dom"
-import {ProjectList} from '.../ProjectList'
+import {ProjectList} from '../Data/ProjectList'
 import Icons from "../img/image"
 
 const ProjectPage: React.FC = () => {
 
-    const {id} = useParams();
-    const project = ProjectList[id]
+    
+    const project = ProjectList.find(project => project.name == id);
+    const { id } = useParams<{id: string}>;
     const GitHubIcon = Icons.Github
 
     return (
@@ -18,8 +19,6 @@ const ProjectPage: React.FC = () => {
         <b>Skills:</b> {project.skills}
       </p>
       <GitHubIcon />
-    </div>
-
     </Container>
   )
 }
